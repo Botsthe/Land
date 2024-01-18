@@ -46,7 +46,7 @@ GROUPCMDS = """<b>👋 ʜᴇʏ,
 • /delall - ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ꜰɪʟᴛᴇʀꜱ ɪɴ ᴀ ɢʀᴏᴜᴘ.
 • /purge - ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴍᴇssᴀɢᴇs ꜰʀᴏᴍ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴍᴇssᴀɢᴇ, ᴛᴏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴍᴇssᴀɢᴇ.</b>"""
  
-    ABOUT_TXT = """
+  ABOUT_TXT = """
 <b>‣ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/MoviesGalaxyfilter_bot">Mᴏᴠɪᴇs Gᴀʟᴀxʏ Bᴏᴛ</a>
 ‣ ᴄʀᴇᴀᴛᴏʀ : <a href="https://t.me/EK4MPREETSINGH">⑅Eᴋᴀᴍᴘʀᴇᴇᴛ Sɪɴɢʜ⑅</a>
 ‣ ʟɪʙʀᴀʀʏ : <a href="https://pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ</a>
