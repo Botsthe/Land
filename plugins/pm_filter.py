@@ -1531,7 +1531,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('⭒ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ⭒', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('💸ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data='short1'),
+                    InlineKeyboardButton('💸ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data='aman'),
                     InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇꜱ •', callback_data='about')
                 ],[
                     InlineKeyboardButton('• ᴄᴏᴍᴍᴀɴᴅꜱ •', callback_data='help'),
@@ -1553,7 +1553,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.answer(MSG_ALRT)
 
-        elif query.data == "short1":
+        elif query.data == "aman":
         buttons = [[
             InlineKeyboardButton('1/3', callback_data='h'),
             InlineKeyboardButton('ɴᴇxᴛ', callback_data='short1')
@@ -1571,7 +1571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        elif query.data == "short2":
+        elif query.data == "aman":
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='short2'),
             InlineKeyboardButton('2/3', callback_data='h'),
@@ -1591,7 +1591,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        elif query.data == "short3":
+        elif query.data == "aman":
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='short2')
             InlineKeyboardButton('3/3', callback_data='h'),
