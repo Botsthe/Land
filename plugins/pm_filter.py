@@ -1556,7 +1556,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "aman":
         buttons = [[
             InlineKeyboardButton('1/3', callback_data='h'),
-            InlineKeyboardButton('ɴᴇxᴛ', callback_data='short1')
+            InlineKeyboardButton('ɴᴇxᴛ', callback_data='aman')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
@@ -1573,9 +1573,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         elif query.data == "aman":
         buttons = [[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='short2'),
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='aman'),
             InlineKeyboardButton('2/3', callback_data='h'),
-            InlineKeyboardButton('ɴᴇxᴛ', callback_data='short1')
+            InlineKeyboardButton('ɴᴇxᴛ', callback_data='aman')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
@@ -1593,9 +1593,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         elif query.data == "aman":
         buttons = [[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='short2')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='aman')
             InlineKeyboardButton('3/3', callback_data='h'),
-            InlineKeyboardButton('ɴᴇxᴛ', callback_data='short1')
+            InlineKeyboardButton('ɴᴇxᴛ', callback_data='aman')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
